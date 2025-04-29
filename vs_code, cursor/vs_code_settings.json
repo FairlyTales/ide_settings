@@ -1,0 +1,86 @@
+{
+  "extensions.ignoreRecommendations": true,
+  "editor.accessibilitySupport": "off",
+  "workbench.startupEditor": "none",
+  "chat.editor.fontSize": 18,
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.sectionHeaderFontSize": 14,
+  "debug.console.fontSize": 14,
+  "markdown.preview.fontSize": 18,
+  "scm.inputFontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "workbench.settings.applyToAllProfiles": ["editor.fontSize"],
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.fixAll.ts": "never",
+    "source.fixAll.eslint": "never",
+    "source.fixAll.prettier": "never",
+    "source.organizeImports.vscode": "explicit",
+    "source.removeUnusedImports": "never",
+    "source.removeUnused.ts": "never",
+    "source.sortImports": "explicit"
+  },
+  "workbench.colorCustomizations": {},
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.general.gitGraphIndexing": "enabled",
+  "githd.blameView.enabled": false,
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "off",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.tabCompletion": "on",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+  "chat.editor.wordWrap": "on",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "editor.fontSize": 14,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Best Themes - Gruvbox Dark",
+  "window.zoomPerWindow": false,
+  "window.zoomLevel": 1,
+  "cSpell.language": "en,ru",
+  "diffEditor.wordWrap": "on",
+  "notebook.output.wordWrap": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "scm.defaultViewMode": "tree",
+  "git.enableSmartCommit": true, // view git commit files as tree by default
+  "editor.acceptSuggestionOnEnter": "smart",
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.history": true
+  },
+  "cSpell.userWords": ["BACKOFFICE", "codegen", "COLOURS", "hideable", "subcomponents"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "git.confirmSync": false,
+  "workbench.list.horizontalScrolling": true,
+  // Defining custom colors instead of default "Rainbow" for dark backgrounds.
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.07)",
+    "rgba(127,255,127,0.07)",
+    "rgba(255,127,255,0.07)",
+    "rgba(79,236,236,0.07)"
+  ],
+  "eslint.format.enable": true,
+  "prettier.printWidth": 120,
+  "editor.tabSize": 2,
+  "editor.stickyTabStops": true,
+  "workbench.activityBar.location": "top"
+}

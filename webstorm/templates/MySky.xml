@@ -1,0 +1,158 @@
+<templateSet group="MySky">
+  <template name="col" value="COLOURS.$END$" description="COLOURS" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="gd" value="export const $NAME$ = getData$END$(reducerName);" description="getData()" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="gl" value="export const $NAME$ = getList$END$(reducerName);" description="getList()" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rs" value="export const $NAME$ = resetState$END$(reducerName);" description="resetState()" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sd" value="export const $NAME$ = setData$END$&lt;&gt;(reducerName);" description="setData()" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sl" value="export const $NAME$ = setList$END$&lt;&gt;(reducerName);" description="setList()" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="slo" value="export const $NAME$ = setLoading$END$(reducerName);" description="setLoading()" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="&lt;au" value="&lt;Autocomplete&#10;  options={$END$}&#10;  value={}&#10;  onChange={}&#10;  label={&lt;FormattedMessage id=&quot;&quot; /&gt;}&#10;/&gt;" description="&lt;Autocomplete&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;bu" value="&lt;Button&#10;  variant=&quot;$END$&quot;&#10;  color=&quot;&quot;&#10;  label={&lt;FormattedMessage id=&quot;&quot; /&gt;}&#10;  onClick={}&#10;/&gt;" description="&lt;Button&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;fo" value="&lt;FormattedMessage id=&quot;$END$&quot; /&gt;" description="&lt;FormattedMessage&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;gc" value="&lt;Grid item container direction=&quot;column&quot; $END$ wrap=&quot;nowrap&quot;&gt;&#10;&#10;&lt;/Grid&gt;" description="&lt;Grid direction=&quot;column&quot;&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;gi" value="&lt;Grid item&gt;&#10;  $END$&#10;&lt;/Grid&gt;" description="&lt;Grid item&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;giw" value="&lt;Grid item width=$END$&gt;&#10;  &#10;&lt;/Grid&gt;" description="&lt;Grid item width&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;gr" value="&lt;Grid item container $END$ wrap=&quot;nowrap&quot;&gt;&#10;&#10;&lt;/Grid&gt;" description="&lt;Grid direction=&quot;row&quot;&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;ta" value="&lt;Table stickyHeader&gt;&#10;  $END$&#10;&lt;/Table&gt;" description="&lt;Table&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;tc" value="&lt;TableCell&gt;&#10;  $END$&#10;&lt;/TableCell&gt;" description="&lt;TableCell&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;tr" value="&lt;TableRow $END$&gt;&#10;&#10;&lt;/TableRow&gt;" description="&lt;TableRow&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;ty" value="&lt;Typography $END$&gt;&#10;  &#10;&lt;/Typography&gt;" description="&lt;Typography" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;tyb" value="&lt;Typography fontWeight=&quot;semiBold&quot;&gt;&#10;  $END$&#10;&lt;/Typography&gt;" description="&lt;Typography bold&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;tyn" value="&lt;Typography fontFamily=&quot;mono&quot; fontWeight=&quot;semiBold&quot;&gt;&#10;  $END$&#10;&lt;/Typography&gt;" description="&lt;Typography numbers&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

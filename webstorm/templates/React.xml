@@ -1,0 +1,105 @@
+<templateSet group="React">
+  <template name="us" value="const [$state$, set$setState$] = useState$statetype$($initState$);$END$" description="useState" toReformat="true" toShortenFQNames="true">
+    <variable name="state" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
+    <variable name="setState" expression="capitalize(state)" defaultValue="" alwaysStopAt="true" />
+    <variable name="statetype" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="initState" expression="" defaultValue="&quot;initState&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ue" value="useEffect$END$(() =&gt; {&#10;&#10;}, []);" description="useEffect" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rfc" value="import React from 'react';&#10;&#10;const $TM_FILENAME_BASE$ = () =&gt; {&#10;  return (&#10;      $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;" description="no props" toReformat="true" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ud" value="const dispatch = useDispatch$END$();" description="useDispatch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="uss" value="const styles = useStyles();$END$" description="useStyles" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="uf" value="const form = useForm$END$();" description="useForm" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rfcp" value="import React from 'react';&#10;&#10;interface IProps {&#10;&#10;}&#10;&#10;const $TM_FILENAME_BASE$ = (props: IProps) =&gt; {&#10;  const { } = props;&#10;  &#10;  return (&#10;      $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;" description="props" toReformat="true" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="uas" value="const {  } = useAppSelector$END$();" description="useAppSelector" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="uh" value="const history = useHistory$END$();" description="useHistory" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="uq" value="const query = useQuery$END$();" description="useQuery" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="uintl" value="const intl = useIntl$END$();" description="useIntl" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ufi" value="const handleFilterChange = useFilter&lt;$END$&gt;({&#10;    getList: ,&#10;    setFilter: ,&#10;    onChange: ,&#10;  });" description="useFilter" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="up" value="const {  } = useParams$END$&lt;&gt;();" description="useParams" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ur" value="const $NAME$ = useRef$END$();" description="useRef" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

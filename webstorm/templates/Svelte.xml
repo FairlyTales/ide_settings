@@ -1,0 +1,52 @@
+<templateSet group="Svelte">
+  <template name="&lt;sc" value="&lt;script lang=&quot;ts&quot;&gt;&#10;  $END$&#10;&lt;/script&gt;" description="&lt;script&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="&lt;st" value="&lt;style&gt;&#10;  $END$&#10;&lt;/style&gt;" description="&lt;style&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="$st" value="let $NAME$ = $state($INIT_VALUE$);" description="$state" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INIT_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="$d" value="let $NAME$ = $derived($INIT_VALUE$);" description="$derived" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INIT_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="$e" value="$effect(() =&gt; {&#10;  $END$&#10;});" description="#effect" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="$p" value="let $END$ = $props();" description="$props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="$b" value="$bindable()" description="$bindable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="$i" value="$inspect($END$);" description="$inspect" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="#if" value="{#if $CONDITION$ }&#10;  $END$&#10;{/if}" description="#if" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
