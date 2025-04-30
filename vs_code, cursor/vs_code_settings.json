@@ -19,7 +19,7 @@
     "source.organizeImports": "explicit",
     "source.fixAll.ts": "never",
     "source.fixAll.eslint": "never",
-    "source.fixAll.prettier": "never",
+    "source.fixAll.prettier": "explicit",
     "source.organizeImports.vscode": "explicit",
     "source.removeUnusedImports": "never",
     "source.removeUnused.ts": "never",
@@ -56,7 +56,6 @@
   "diffEditor.wordWrap": "on",
   "notebook.output.wordWrap": true,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.editor.enablePreview": false,
   "scm.defaultViewMode": "tree",
   "git.enableSmartCommit": true, // view git commit files as tree by default
   "editor.acceptSuggestionOnEnter": "smart",
@@ -82,5 +81,12 @@
   "prettier.printWidth": 120,
   "editor.tabSize": 2,
   "editor.stickyTabStops": true,
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "editor.formatOnPaste": true,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.formatOnCellExecution": true,
+  "editor.find.seedSearchStringFromSelection": "always",
+  "search.quickOpen.includeHistory": false,
+  "search.searchEditor.reusePriorSearchConfiguration": true,
+  "search.defaultViewMode": "tree"
 }

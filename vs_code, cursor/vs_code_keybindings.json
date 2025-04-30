@@ -283,15 +283,15 @@
     "key": "cmd+shift+f",
     "command": "workbench.action.findInFiles",
     "args": {
-      "query": "", // some bug requires this
-      "filesToInclude": "*.ts, *.tsx, *.json"
+      "filesToInclude": "*.ts, *.tsx, *.json",
+      "useExcludeSettingsAndIgnoreFiles": true,
+      "triggerSearch": true
 
+      // "query": "", // some bug requires this, but with this
       // "isRegex": true,
       // "replace": "$1",
-      // "triggerSearch": true,
       // "filesToExclude": "data"
       // "preserveCase": true,
-      // "useExcludeSettingsAndIgnoreFiles": false,
       // "isCaseSensitive": true,
       // "matchWholeWord": true,
     }
