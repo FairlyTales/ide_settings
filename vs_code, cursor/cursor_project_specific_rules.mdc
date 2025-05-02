@@ -4,7 +4,7 @@
 - Always name react component props interfaces as IProps.
 - Always props destructuring inside React components, for example, "const ReactComponent = (props: IProps) => { const { prop_1, prop_2 } = props; ...}.
 - Always place components in separate directories with the same name as component and create an index file with export.
-- Use '<Button />', '<Autocomplete />', '<Checkbox />', '<Datepicker />', '<Loader />', '<Modal />', '<Noata />', '<RadioButton />', '<Switch />', '<TableCell />', '<TableRow />', '<TableCell />', '<HeaderCell />, '<Tabs />, '<TextField />, '<Toggle /> components from '@core-ui' packages.
+- Use '<Button />', '<Autocomplete />', '<Checkbox />', '<DatePicker />', '<Loader />', '<Modal />', '<RadioButton />', '<Switch />', '<TableCell />', '<TableRow />', '<TableCell />', '<HeaderCell />, '<Tabs />, '<TextField />, '<Toggle /> components from '@core-ui' packages.
 - Use action creators like 'getData', 'setData', 'getList', 'setList', 'resetState', 'setLoading' from '@core-ui/reducers_handlers' package.
 - Use icons from '@phosphor-icons/react' package.
 - Use '<Table />', '<Grid />', '<Stack />', '<Typography />', '<TableBody />', '<TableHead />', '<SvgIcon />', '<Divider />', '<Box />', '<Container />', '<Paper />', '<Skeleton />', '<Tooltip />', '<Drawer />', '< />', '< />', '< />' components from '@mui/material' packages.
