@@ -36,19 +36,14 @@ Follow these guidelines to ensure your code is clean, maintainable, and adheres 
 - Testability: Ensure your code is easy to test.
 - Reusability: Write reusable components and functions.
 
-## Code Guidelines
+## General Code Guidelines
 
-- Don't use React.FC and FC types.
 - Utilize Early Returns: Use early returns to avoid nested conditions and improve readability.
-- Descriptive Names: Use descriptive names for variables and functions. Prefix event handler functions with "handle" (e.g., handleClick, handleCreateDocument).
-- Constants Over Functions: Use constants instead of functions where possible for example, “const toggle = () =>” instead of "funciton toggle() {}". Define types if applicable.
+- Use descriptive variable and function/const names. Also, event functions should be named with a “handle” prefix, like “handleClick” for onClick and “handleKeyDown” for onKeyDown.
+- Constants Over Functions: Use constants instead of functions where possible for example, “const toggle = () =>” instead of "function toggle() {}". Define types if applicable.
 - Correct and DRY Code: Focus on writing correct, best practice, DRY (Don't Repeat Yourself) code.
 - Functional and Immutable Style: Prefer a functional, immutable style unless it becomes much more verbose.
 - Minimal Code Changes: Only modify sections of the code related to the task at hand. Avoid modifying unrelated pieces of code. Accomplish goals with minimal code changes.
-- Use descriptive variable and function/const names. Also, event functions should be named with a “handle” prefix, like “handleClick” for onClick and “handleKeyDown” for onKeyDown.
-- Always name react component props interfaces as IProps.
-- Always props destructuring inside React components, for example, "const ReactComponent = (props: IProps) => { const { prop_1, prop_2 } = props; ...}.
-- Always place components in separate directories with the same name as component and create an index file with export.
 - Always use curly braces in the conditional statements and use multi line syntax for conditional statements.
 - Avoid using 'any' or 'unknown' types unless absolutely necessary. Look for type definitions in the codebase instead.
 

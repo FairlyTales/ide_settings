@@ -1,0 +1,19 @@
+---
+description: Code Guidelines for the project
+globs: 
+alwaysApply: true
+---
+# Code Guidelines for the project
+
+- Don't use React.FC and FC types.
+- Always name react component props interfaces as IProps.
+- Always props destructuring inside React components, for example, "const ReactComponent = (props: IProps) => { const { prop_1, prop_2 } = props; ...}.
+- Always place components in separate directories with the same name as component and create an index file with export.
+- Use '<Button />', '<Autocomplete />', '<Checkbox />', '<Datepicker />', '<Loader />', '<Modal />', '<Noata />', '<RadioButton />', '<Switch />', '<TableCell />', '<TableRow />', '<TableCell />', '<HeaderCell />, '<Tabs />, '<TextField />, '<Toggle /> components from '@core-ui' packages.
+- Use action creators from '@core-ui/reducers_handlers' package.
+- Use icons from '@phosphor-icons/react' package.
+- Use '<Table />', '<Grid />', '<Stack />', '<Typography />', '<TableBody />', '<TableHead />', '<SvgIcon />', '<Divider />', '<Box />', '<Container />', '<Paper />', '<Skeleton />', '<Tooltip />', '<Drawer />', '< />', '< />', '< />' components from '@mui/material' packages.
+- Use 'useAppSelector' from 'hooks' directory instead of default 'useSelector' from redux.
+- Place styles in the 'styles.ts' files. In this file export a function 'export default (): Record<string, SxProps<Theme>> => ({ someStyles: {} })'. Import this function in a component file as 'import useStyles from './styles' and in the component body do 'const styles = useStyles()', then apply styles to components like in this example: '<Grid sx={styles.container} />.
+- Always place calls to backend api in the sagas.
+- Use 'createSelector()' from 'reselect' when creating compound selectors. For simple selectors just follow this pattern: 'const getListDisabled = (state: State) => state.someModule.list.isDisabled;'
