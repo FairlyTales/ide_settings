@@ -88,5 +88,6 @@
   "editor.find.seedSearchStringFromSelection": "always",
   "search.quickOpen.includeHistory": false,
   "search.searchEditor.reusePriorSearchConfiguration": true,
-  "search.defaultViewMode": "tree"
+  "search.defaultViewMode": "tree",
+  "workbench.editor.enablePreview": false
 }
