@@ -308,7 +308,8 @@
     "key": "cmd+/",
     "command": "runCommands",
     "args": {
-      "commands": ["editor.action.commentLine", "cursorDown"]
+      "commands": ["editor.action.commentLine"]
+      // "commands": ["editor.action.commentLine", "cursorDown"]
     },
     "when": "editorTextFocus"
   },
@@ -390,5 +391,20 @@
     "key": "cmd+.",
     "command": "-editor.action.quickFix",
     "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+[Slash]",
+    "command": "-editor.toggleFold",
+    "when": "editorFocus && foldingEnabled"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "cmd+r cmd+0",
+    "command": "-editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled"
   }
 ]
